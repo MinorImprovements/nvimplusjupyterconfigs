@@ -1,6 +1,5 @@
 local M = {
     "nvim-treesitter/nvim-treesitter",
-    branch = 'master',
     build = "TSUpdate",
 	lazy = false,   -- We want to see the highlighting since the start, so false
 }
