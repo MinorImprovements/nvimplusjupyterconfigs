@@ -19,7 +19,7 @@ vim.opt.undofile = true
 -- Comment this line
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 -- And uncomment this one in case you use Windows
--- vim.opt.undodir = os.getenv("UserProfile") .. /".vim/undodir" 
+-- vim.opt.undodir = os.getenv("UserProfile") .. /".vim/undodir"
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -29,3 +29,4 @@ vim.opt.termguicolors = true
 
 vim.opt.fillchars:append({ eob = " " })
 
+vim.opt.clipboard = "unnamedplus"
