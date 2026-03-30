@@ -12,5 +12,7 @@ spec("plugins.fugitive")
 spec("plugins.harpoon")
 spec("plugins.mason")
 spec("plugins.nvim-cmp")
+spec("plugins.crates")
+spec("plugins.autopairs")
 require "plugins.lazy"
 require "keymaps"
