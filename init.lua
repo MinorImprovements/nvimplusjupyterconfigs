@@ -12,6 +12,7 @@ spec("plugins.mason")
 spec("plugins.nvim-cmp")
 spec("plugins.crates")
 spec("plugins.autopairs")
+spec("plugins.fidget")
 require "plugins.lazy"
 require "set_term_bg"
 require "fmt_on_save"
