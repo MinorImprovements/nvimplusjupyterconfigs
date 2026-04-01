@@ -1,14 +1,6 @@
 --nvim-tree project view
 vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true, desc = "Toggle NvimTree" })
 
--- telescope keymaps
-local builtin = require "telescope.builtin"
-vim.keymap.set("n", "<leader>pf", builtin.find_files, {})
-vim.keymap.set("n", "<C-g>", builtin.git_files, {})
-vim.keymap.set("n", "<leader>ps", function()
-   builtin.grep_string({ search = vim.fn.input("Grep > ") })
-end)
-
 --fugitive.lua keymaps
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 

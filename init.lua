@@ -1,7 +1,5 @@
-require "options"
 require "launch"
-require "fmt_on_save"
-require "set_term_bg"
+require "options"
 spec("plugins.nvim-tree")
 spec("plugins.lualine")
 spec("plugins.which-key")
@@ -15,4 +13,7 @@ spec("plugins.nvim-cmp")
 spec("plugins.crates")
 spec("plugins.autopairs")
 require "plugins.lazy"
+require "set_term_bg"
+require "autocmd"
+require "fmt_on_save"
 require "keymaps"
