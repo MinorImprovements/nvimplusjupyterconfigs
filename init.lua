@@ -14,6 +14,5 @@ spec("plugins.crates")
 spec("plugins.autopairs")
 require "plugins.lazy"
 require "set_term_bg"
-require "autocmd"
 require "fmt_on_save"
 require "keymaps"

@@ -30,3 +30,5 @@ vim.opt.termguicolors = true
 vim.opt.fillchars:append({ eob = " " })
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.lsp.inlay_hint.enable(true)
