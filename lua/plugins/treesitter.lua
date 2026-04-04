@@ -4,7 +4,7 @@ return {
    lazy = false, -- We want to see the highlighting since the start, so false
    config = function()
       require "nvim-treesitter".setup {
-         ensure_installed = { "c", "lua", "rust", "bash" },
+         ensure_installed = { "c", "lua", "rust", "bash", "html" },
          auto_install = true,
          highlight = { enable = true },
          indent = { enable = true },

@@ -10,6 +10,8 @@ M.servers = {
    "clangd",
    "rust_analyzer",
    "taplo",
+   "html",
+   "emmet_ls",
 }
 
 function M.config()

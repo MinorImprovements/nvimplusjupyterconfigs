@@ -5,14 +5,22 @@ local M = {
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-buffer',
       'saecki/crates.nvim',
+      'L3MON4D3/LuaSnip',
+      'saadparwaiz1/cmp_luasnip',
    },
 }
 
 function M.config()
    local cmp = require('cmp')
    cmp.setup({
+      snippet = {
+         expand = function(args)
+            require('luasnip').lsp_expand(args.body)
+         end,
+      },
       sources = {
          { name = 'nvim_lsp' },
+         { name = 'luasnip' },
          { name = 'buffer' },
          { name = 'crates' },
       },

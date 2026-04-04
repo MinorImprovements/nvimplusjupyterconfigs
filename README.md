@@ -14,6 +14,7 @@ plugins
 -telescope - fuzzy finder/search
 -treesitter - better highlighting
 -which-key - nvim keymap hints
+-fidget - shows what is currently loading. (ex why is my lsp taking so long.)
 
 Required install
 -xclip - this allow me to yank to clip board with vim.o.clipboard in options.lua
@@ -23,4 +24,5 @@ cargo install --locked evcxr_jupyter
 evcxr_jupyter --install
 - this allows the use with jupyter notebook plugin for use with rust.
 
-
+-npm
+-npm install -g vscode-langservers-extracted emmet-ls
